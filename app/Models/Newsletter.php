@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Newsletter extends Model
+{
+    //
+    protected $fillable = [
+    	'date',
+		'code',
+		'title',
+		'image',
+		'file'
+    ];
+}
